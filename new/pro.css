@@ -1,0 +1,118 @@
+<html>
+<head>
+	<style type="text/css">
+		body{
+			background-image: url(elearning.jpeg);
+			background-size: 100% 100%;
+		}
+		#d1{
+			height:500px;
+			width: 500px;
+			border: 2px solid;
+			background-image:url(elearning.jpeg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		    line-height:39px ;
+		    box-shadow: 8px 8px 5px 5px;
+		}
+		#d2{
+			height:20px;
+			width:60px;
+		}
+	</style>
+</head>
+<body>
+	<center>	
+	
+	<div id="d1">
+	<form>
+			<center>REGISTRATION</center>
+			<table>
+			<label for="fname">FIRST NAME:</label>
+			<input type="text" name="fname">
+			<br>
+			<label for="fname">MIDDLE NAME</label>
+			<input type="text" name="fname">
+			<br>
+			<label for="fname">LAST NAME</label>
+			<input type="text" name="fname">
+			<br>
+			<label for="email">EMAIL:</label>
+			<input type="email" name="fname">
+			<br>
+			<label for="fname">ADDRESS:</label>
+			<textarea cols="3" rows="1"></textarea>
+			<br>
+			<label for="number">MOBILE NUMBER:</label>
+			<input type="number" name="MOBILE NUMBER">
+			<br>
+			<label for="BRANCH">BRANCH:</LABEL>
+				<select id="batch">
+					<option> BCA</option>
+					<option> ITM</option>
+					<option> CS</option>
+					<option> MCA</option>
+					<option> MBA</option>
+					<option> BBA</option>
+				</select>
+				<br>
+				<label for="EXTRA COURSE">EXTRA COURSE</LABEL>
+				<select id="Ecourse">
+					<option> C</option>
+					<option> C++</option>
+					<option> JAVA</option>
+					<option> PYTHON</option>
+					<option> WEB DESGIN</option>
+					<option> DATABASE</option>
+				</select>
+				<br>
+				<label for="DISTRICT">DISTRICT</LABEL>
+				<select id="different">
+					<option>Angul</option>
+                    <option> Boudh</option>
+                    <option>Bhadrak </option>
+                    <option>Bolangir</option>
+                    <option>Bargarh</option>
+                    <option>Balasore</option>
+                    <option>Cuttack</option>
+                    <option>Debagarh</option>
+                    <option>Dhenkanal</option>
+                    <option>Ganjam</option>
+                    <option>Gajapati</option>
+                    <option>Jharsuguda</option>
+                    <option>Jajapur</option>
+                    <option>Jagatsinghpur</option>
+                    <option>Khordha</option>
+                    <option>Keonjhar</option>
+                    <option>Kalahandi</option>
+                    <option>Kandhamal</option>
+                    <option>Koraput</option>
+                    <option>Kendrapara</option>
+                    <option>Malkangiri</option>
+                    <option>Mayurbhanj</option>
+                    <option>Nabarangpur</option>
+                    <option>Nuapada</option>
+                    <option>Nayagarh</option>
+                    <option>Puri</option>
+                    <option>Rayagada </option>
+                    <option>Sambalpur</option>
+                    <option>Subarnapur</option>
+                    <option>Sundargarh</option>
+				</select>
+				<br>
+				<label for="gender"> SELECT GENDER:</label>
+				<br>
+				<label for="female"> female: </label>
+				<input type="radio" id="female" name="gender">
+				<label for="male"> male: </label>
+				<input type="radio" id="male" name="gender">
+				<br>
+				<button id="d2"><a href="end.html">LOGIN</button>
+				<input type="Reset" name="Reset" id="d2">
+				<button id="d2"><a href="res1.html">EXIST</button>
+</div></center>
+</label>
+</table>
+	</form>
+</body>
+</html>
